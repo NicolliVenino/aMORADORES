@@ -15,3 +15,5 @@ Nome_do_Projeto
 ## Instalação
 
 # Como configurar o banco de dados?
+
+# Como testar as APIs?
