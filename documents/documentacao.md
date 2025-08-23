@@ -32,7 +32,23 @@ A ferramenta configura-se como uma plataforma gratuíta que conecta corretores d
 
 ### 3.2. Personas  
 
+As personas são representações semifictícias criadas para ilustrar perfis de usuários com comportamentos, objetivos e desafios semelhantes aos do público real de uma solução. Elas são amplamente utilizadas em projetos de tecnologia, design e ciência de dados para orientar decisões centradas nas necessidades e experiências humanas. Ao sintetizar características como motivações, frustrações e contexto, as personas ajudam a compreender melhor os diferentes pontos de vista envolvidos na aplicação de uma ferramenta ou serviço.
 
+Diante disso, foram desenvolvidas as seguintes personas para o projeto:
+
+As quatro personas desenvolvidas podem ser visualizadas a seguir.
+    
+<p align = "center">Figura 1 - Primeira Persona</p>
+<div align = "center">
+  <img src = "../assets/persona1.png">
+</div>
+<p align = "center">Fonte: Material produzido pelas autoras (2025).</p>
+
+<p align = "center">Figura 2 - Segunda Persona</p>
+<div align = "center">
+  <img src = "../assets/persona2.png">
+</div>
+<p align = "center">Fonte: Material produzido pelas autoras (2025).</p>
 
 3.3. Jornada do Usuário  
 3.4. Planejamento Geral da Solução  
