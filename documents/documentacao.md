@@ -2,13 +2,9 @@
 
 ## aMORADORES
 
-A ferramenta configura-se como uma plataforma gratuíta que conecta corretores de imóveis e potenciais clientes, assim como facilita a organização e a praticidade no processo de busca e análise de imóveis. 
-
-## 📋 Índice
-
-# Índice da Documentação Técnica do Projeto aMORA
-
 ## 1. Visão Geral
+
+&nbsp; &nbsp; &nbsp; &nbsp;A ferramenta configura-se como uma plataforma gratuíta que conecta corretores de imóveis e potenciais clientes, assim como facilita a organização e a praticidade no processo de busca e análise de imóveis. 
 
 ### 1.1. Introdução 
 
@@ -24,8 +20,9 @@ A ferramenta configura-se como uma plataforma gratuíta que conecta corretores d
 
 ### 3.1. Compreensão do Problema  
 
+### 3.2. Compreensão do Público-Alvo
 
-### 3.2. Personas  
+### 3.3. Personas  
 
 &nbsp; &nbsp; &nbsp; &nbsp;As personas são representações semifictícias criadas para ilustrar perfis de usuários com comportamentos, objetivos e desafios semelhantes aos do público real de uma solução. Nessa esfera, ao sintetizar características como motivações, frustrações e contexto, as personas ajudam a compreender melhor os diferentes pontos de vista envolvidos na aplicação de uma ferramenta ou serviço.
 
@@ -60,9 +57,3 @@ A ferramenta configura-se como uma plataforma gratuíta que conecta corretores d
 ### 4.1. Próximos Passos  
 
 ### 4.2. Referências
-
-### Serviços Externos
-- **Twilio** (WhatsApp API)
-- **Resend** (transacional e-mails)
-- **Vercel** (deploy frontend)
-- **Railway** (deploy backend e banco)
