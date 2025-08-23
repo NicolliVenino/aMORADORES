@@ -1,13 +1,18 @@
-# 🏠 aMORADORES
+# Documentação do Projeto
 
-Uma ferramenta gratuita, viral e útil que conecta leads buscando imóveis e corretores que querem vender mais, resolvendo os 5 problemas-chave do desafio.
+## aMORADORES
+
+A ferramenta configura-se como uma plataforma gratuíta que conecta corretores de imóveis e potenciais clientes, assim como facilita a organização e a praticidade no processo de busca e análise de imóveis. 
 
 ## 📋 Índice
 
 # Índice da Documentação Técnica do Projeto aMORA
 
 ## 1. Visão Geral
-1.1. Introdução
+
+1.1. Introdução 
+
+
 1.2. Objetivos e Justificativa  
 1.3. Funcionalidades
 1.4. Solução para os Problemas  
@@ -23,7 +28,38 @@ Uma ferramenta gratuita, viral e útil que conecta leads buscando imóveis e cor
 
 ## 3. Planejamento da Solução
 3.1. Compreensão do Problema  
-3.2. Personas  
+
+
+### 3.2. Personas  
+
+&nbsp; &nbsp; &nbsp; &nbsp;As personas são representações semifictícias criadas para ilustrar perfis de usuários com comportamentos, objetivos e desafios semelhantes aos do público real de uma solução. Nessa esfera, ao sintetizar características como motivações, frustrações e contexto, as personas ajudam a compreender melhor os diferentes pontos de vista envolvidos na aplicação de uma ferramenta ou serviço.
+
+ &nbsp; &nbsp; &nbsp; &nbsp;Diante disso, foram desenvolvidas as seguintes personas para o projeto:
+
+<div align = "center">
+    
+<sub>Figura 1 - Primeira Persona </sub>
+    
+<img src = "../assets/persona1.png">
+
+<sup>Fonte: Material produzido pelos autores (2025)</sup>
+
+</div>
+
+&nbsp; &nbsp; &nbsp; &nbsp;A persona supracitada corresponde ao usuário que busca um imóvel.
+
+<div align = "center">
+    
+<sub>Figura 2 - Segunda Persona </sub>
+    
+<img src = "../assets/persona2.png">
+  
+<sup>Fonte: Material produzido pelos autores (2025)</sup>
+
+</div>
+
+&nbsp; &nbsp; &nbsp; &nbsp;A persona acima representa o perfil do corretor de imóveis da aMORA.
+
 3.3. Jornada do Usuário  
 3.4. Planejamento Geral da Solução  
 
@@ -43,13 +79,13 @@ Este projeto é uma solução full-stack em **TypeScript** para o desafio técni
 
 **Link da Aplicação Hospedada**: [https://amora-challenge.vercel.app](https://amora-challenge.vercel.app)
 
-## ✨ Funcionalidades
+## Funcionalidades
 
-- ✅ **Salvar e organizar imóveis** via link, input manual ou crawler
-- ✅ **Sistema de notificações** por e-mail e WhatsApp para imóveis similares
-- ✅ **Modo colaborativo** para casais, famílias e corretores
-- ✅ **Páginas personalizadas** para corretores apresentarem a aMORA
-- ✅ **Captação de leads** sem login obrigatório e integração com WhatsApp
+- **Salvar e organizar imóveis** via link por input manual;
+- **Sistema de notificações** por e-mail e WhatsApp para imóveis similares;
+- **Modo colaborativo** para casais, famílias e corretores
+- **Páginas personalizadas** para corretores apresentarem a aMORA
+- **Captação de leads** sem login obrigatório e integração com WhatsApp
 
 ## 🛠 Tecnologias Utilizadas
 
@@ -73,17 +109,3 @@ Este projeto é uma solução full-stack em **TypeScript** para o desafio técni
 - **Resend** (transacional e-mails)
 - **Vercel** (deploy frontend)
 - **Railway** (deploy backend e banco)
-
-## 🚀 Como Executar
-
-### Pré-requisitos
-- Node.js 18+
-- PostgreSQL
-- Contas nos serviços (Twilio, Resend - opcional para desenvolvimento)
-
-### Passo a Passo
-
-1. **Clone o repositório**
-   ```bash
-   git clone https://github.com/seu-usuario/amora-challenge.git
-   cd amora-challenge
