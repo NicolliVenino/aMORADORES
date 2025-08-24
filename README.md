@@ -18,19 +18,24 @@ Segue abaixo a estrutura de pastas do projeto:
 ``` bash
 aMORADORES
 hackathon-aMora
-├── app
-│ ├── buscar
-│ ├── colaboracao
-│ ├── comparacao
-│ ├── corretor
-│ └── simulador
-├── components
-│ └── ui
-├── documents
-├── hooks
-├── lib
-├── public
-└── styles
+.next
+  └── cache
+  └── server
+  └── static
+  └── types
+app
+  └── buscar
+  └── colaboracao
+  └── comparacao
+  └── corretor
+  └── simulador
+components
+  └── ui
+documents
+hooks
+lib
+public
+styles
 
 ```
 ---
