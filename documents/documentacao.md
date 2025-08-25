@@ -22,7 +22,7 @@
 
 #### 2.2 Proposta da Solução
 
-&nbsp; &nbsp; &nbsp; &nbsp;A proposta de solucação torna-se concreta por meio de uma aplicação WEB sem fins lucrativos - com o fito de ser acessível a potenciais clientes, na qual, por intermédio de suas funcionalidades, atende à todos os objetivos supracitados. 
+&nbsp; &nbsp; &nbsp; &nbsp;A proposta de solucação torna-se concreta por meio de uma aplicação WEB sem fins lucrativos - com o fito de ser acessível a potenciais clientes -, a qual, por intermédio de suas funcionalidades, atende à todos os objetivos supracitados. 
 
 #### 2.3 Justificativa
 
