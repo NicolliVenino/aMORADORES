@@ -62,22 +62,136 @@
 
 ### Estrutura de Pastas
 ```
-aMORADORES
-hackathon-aMora/
-- .next/             # Arquivos de build do Next.js
-- app/               # Rotas e páginas da aplicação
-- buscar/        # Lógica para busca e listagem
-- colaboracao/   # Lógica de colaboração
-- comparacao/    # Lógica de comparação
-- corretor/      # Páginas e ferramentas do corretor
-- simulador/     # Calculadora e simulador financeiro
-- components/        # Componentes reutilizáveis do React
-- ui/            # Componentes de interface (botões, inputs, etc.)
-- documents/         # Documentação e relatórios do projeto
-- hooks/             # Custom Hooks do React
-- lib/               # Bibliotecas e utilitários
-- public/            # Assets estáticos (imagens, etc.)
-- styles/            # Arquivos CSS globais
+aMORADORES/
+│
+├── app/                    # Núcleo da aplicação: backend, frontend, configurações e scripts                    
+│   │
+│   ├── auth/callback/              
+│   │   ├── page.tsx             
+│   │
+│   ├── buscar/         
+│   │   ├── loading.tsx           
+│   │   ├── page.tsx             
+│   ├── colaboracao/         
+│   │   ├── page.tsx 
+│   ├── comparacao/         
+│   │   ├── page.tsx 
+│   ├── corretor/         
+│   │   ├── page.tsx
+│   ├── dashboard/         
+│   │   ├── page.tsx
+│   ├── login/         
+│   │   ├── page.tsx
+│   ├── simulador/         
+│   │   ├── page.tsx
+│   ├── global.css         
+│   ├── layout.tsx        
+│   ├── loading.tsx         
+│   ├── page.tsx         
+├── assets/
+│   ├── CPV - aMORADORES.png        
+│   ├── analise-swot.png         
+│   ├── persona1.png       
+│   ├── persona2.png       
+├── components/
+│   │
+│   ├── ui/              
+│   │   ├── accordion.tsx            
+│   │   ├── alert-dialog.tsx
+│   │   ├── alert.tsx
+│   │   ├── aspect-ratio.tsx
+│   │   ├── avatar.tsx
+│   │   ├── badge.tsx
+│   │   ├── breadcrumb.tsx
+│   │   ├── button.tsx
+│   │   ├── calendar.tsx
+│   │   ├── card.tsx
+│   │   ├── carousel.tsx
+│   │   ├── chart.tsx
+│   │   ├── checkbox.tsx
+│   │   ├── collapsible.tsx
+│   │   ├── command.tsx
+│   │   ├── context-menu.tsx
+│   │   ├── dialog.tsx
+│   │   ├── drawer.tsx
+│   │   ├── dropdown-menu.tsx
+│   │   ├── form.tsx
+│   │   ├── hover-card.tsx
+│   │   ├── input-otp.tsx
+│   │   ├── input.tsx
+│   │   ├── label.tsx
+│   │   ├── menubar.tsx
+│   │   ├── navigation-menu.tsx
+│   │   ├── pagination.tsx
+│   │   ├── popover.tsx
+│   │   ├── progress.tsx
+│   │   ├── radio-group.tsx
+│   │   ├── resizable.tsx
+│   │   ├── scroll-area.tsx
+│   │   ├── select.tsx
+│   │   ├── separator.tsx
+│   │   ├── sheet.tsx
+│   │   ├── sidebar.tsx
+│   │   ├── skeleton.tsx
+│   │   ├── slider.tsx
+│   │   ├── sonner.tsx
+│   │   ├── switch.tsx
+│   │   ├── table.tsx
+│   │   ├── tabs.tsx
+│   │   ├── textarea.tsx
+│   │   ├── toast.tsx
+│   │   ├── toaster.tsx
+│   │   ├── toggle-group.tsx
+│   │   ├── toggle.tsx
+│   │   ├── tooltip.tsx
+│   │   ├── use-mobile.tsx
+│   │   ├── use-toast.ts
+│   │
+│   ├── agent-dashboard.tsx
+│   ├── collaboration-features.tsx
+│   ├── financial-simulator.tsx
+│   ├── hero.tsx
+│   ├── how-it-works.tsx
+│   ├── navigation.tsx
+│   ├── property-search-preview.tsx
+│   ├── property-search.tsx
+│   ├── quick-actions.tsx
+│   ├── theme-provider.tsx
+├── documents/
+├── documentacao.md
+├── hooks/
+├── use-mobile.ts
+├── use-toast.ts
+├── useAuth.tsx
+├── lib/
+├── supabase.ts
+├── utils.ts
+├── public/
+├── amoraLogo.jpg
+├── diverse-woman-avatar.png
+├── happy-couple-in-modern-home-interior.png
+├── house-jardim-paulista.png
+├── luxurious-pinheiros-penthouse.png
+├── man-realtor-avatar.png
+├── modern-apartment-vila-madalena.png
+├── placeholder-logo.png
+├── placeholder-logo.svg
+├── placeholder-user.jpg
+├── placeholder.jpg
+├── placeholder.svg
+├── styles/
+├── globals.css
+├── .gitignore
+├── README.md
+├── components.json
+├── middleware.ts
+├── next.config.mjs
+├── package-lock.json
+├── package.json
+├── pnpm-lock.yaml
+├── postcss.config.mjs
+├── tsconfig.json
+
 ```
 
 ---
