@@ -1,7 +1,13 @@
-/* import type React from "react"
+import type React from "react"
 import type { Metadata } from "next"
-import { Montserrat, Open_Sans } from "next/font/google"
+import { Inter, Montserrat } from "next/font/google"
 import "./globals.css"
+
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-inter",
+})
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -10,80 +16,29 @@ const montserrat = Montserrat({
   weight: ["400", "600", "700", "900"],
 })
 
-const openSans = Open_Sans({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-open-sans",
-  weight: ["400", "500", "600"],
-})
-
 export const metadata: Metadata = {
-  title: "aMORA - Sua Casa com Apenas 5% de Entrada",
-  description:
-    "Compre sua casa própria com apenas 5% de entrada. Teste antes de comprar por até 3 anos. Revolucione sua jornada imobiliária com a aMORA.",
-  keywords: "imóveis, casa própria, financiamento, 5% entrada, aMORA, real estate",
-  authors: [{ name: "aMORA Team" }],
-  openGraph: {
-    title: "aMORA - Sua Casa com Apenas 5% de Entrada",
-    description: "Compre sua casa própria com apenas 5% de entrada. Teste antes de comprar por até 3 anos.",
-    type: "website",
-  },
-    generator: 'v0.app'
-}
-
-/* export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
-  return (
-    <html lang="pt-BR" className={`${montserrat.variable} ${openSans.variable}`}>
-      <body className="antialiased">{children}</body>
-    </html>
-  )
-} */
-/*
-import { AuthProvider } from '@/hooks/useAuth'
-import './globals.css'
-
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
-  return (
-    <html lang="pt-BR">
-      <body>
-        <AuthProvider>
-          {children}
-        </AuthProvider>
-      </body>
-    </html>
-  )
-} */
-
-// app/layout.tsx
-import './globals.css'
-import type { Metadata } from 'next'
-import { AuthProvider } from '@/hooks/useAuth'
-
-export const metadata: Metadata = {
-  title: 'Minha App',
-  description: 'Descrição da app',
+  title: "aMORA - Plataforma Imobiliária",
+  description: "Encontre o imóvel dos seus sonhos com a aMORA",
+  generator: "v0.app",
 }
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode
-}) {
+}>) {
   return (
-    <html lang="pt-BR">
-      <body>
-        <AuthProvider>
-          {children}
-        </AuthProvider>
-      </body>
+    <html lang="pt-BR" className={`${inter.variable} ${montserrat.variable}`}>
+      <head>
+        <style>{`
+html {
+  font-family: ${inter.style.fontFamily};
+  --font-sans: ${inter.variable};
+  --font-heading: ${montserrat.variable};
+}
+        `}</style>
+      </head>
+      <body className="font-sans antialiased">{children}</body>
     </html>
   )
 }
