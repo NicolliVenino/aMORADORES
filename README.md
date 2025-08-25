@@ -52,6 +52,10 @@
 
 - A experiência de usuário é iniciada sem a obrigatoriedade de login, reduzindo o atrito inicial. Já a integração com WhatsApp e a possibilidade de compartilhamento viral por links são a base para a captação orgânica de leads.
 
+6. **Próximos Passos:**
+
+- Como passos futuros pretendemos aprimorar algumas funcionalidades ainda em desenvolvimento, as quais estão em processo de teste para a integração final, como os alertas inteligentes, implementar as funcionalidedas de compartilhamento via WhatsApp e Email via APIs e a conexão com um banco de dados real para o pleno funcionamento das funcionalidades.
+
 ---
 
 ### Estrutura de Pastas
