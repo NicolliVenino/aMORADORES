@@ -89,12 +89,8 @@
 
 &nbsp; &nbsp; &nbsp; &nbsp;A persona acima representa o perfil do corretor de imóveis da aMORA.
 
-## 4. Conclusão e Próximos Passos
-
-### 4.1. Próximos Passos  
-
-### 4.2. Referências
+### 4. Referências
 
 SEBRAE. Conheça a Análise SWOT: Aprenda como fazer e os benefícios de utilizar essa ferramenta de planejamento. [S. l.], 19 abr. 2023. Disponível em: https://sebrae.com.br/sites/PortalSebrae/conheca-a-analise-swot,202f64e8feb67810VgnVCM1000001b00320aRCRD. Acesso em: 7 ago. 2025.
 
-[X]. PEREIRA, Daniel. O que é o Value Proposition Canvas?. [S. l.], 27 set. 2024. Disponível em: https://businessmodelanalyst.com/pt/value-proposition-canvas/. Acesso em: 27 mar. 2025.
+PEREIRA, Daniel. O que é o Value Proposition Canvas?. [S. l.], 27 set. 2024. Disponível em: https://businessmodelanalyst.com/pt/value-proposition-canvas/. Acesso em: 27 mar. 2025.
