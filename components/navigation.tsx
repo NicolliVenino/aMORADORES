@@ -42,13 +42,19 @@ export function Navigation() {
         </div>
 
         <div className="flex items-center space-x-4">
-          <Button
-            variant="outline"
-            className="hidden sm:inline-flex bg-transparent border-amora-purple text-amora-purple hover:bg-amora-purple hover:text-white"
-          >
-            Entrar
-          </Button>
-          <Button className="hidden sm:inline-flex bg-amora-blue hover:bg-amora-blue/90">Começar Agora</Button>
+          <Link href="/login">
+            <Button
+              variant="outline"
+              className="hidden sm:inline-flex bg-transparent border-amora-purple text-amora-purple hover:bg-amora-purple hover:text-white"
+            >
+              Entrar
+            </Button>
+          </Link>
+          <Link href="/login">
+            <Button className="hidden sm:inline-flex bg-amora-blue hover:bg-amora-blue/90">
+              Começar Agora
+            </Button>
+          </Link>
 
           {/* Mobile Menu */}
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
@@ -71,13 +77,23 @@ export function Navigation() {
                   </Link>
                 ))}
                 <div className="pt-4 space-y-2">
-                  <Button
-                    variant="outline"
-                    className="w-full bg-transparent border-amora-purple text-amora-purple hover:bg-amora-purple hover:text-white"
-                  >
-                    Entrar
-                  </Button>
-                  <Button className="w-full bg-amora-blue hover:bg-amora-blue/90">Começar Agora</Button>
+                  <Link href="/login" className="block">
+                    <Button
+                      variant="outline"
+                      className="w-full bg-transparent border-amora-purple text-amora-purple hover:bg-amora-purple hover:text-white"
+                      onClick={() => setIsOpen(false)}
+                    >
+                      Entrar
+                    </Button>
+                  </Link>
+                  <Link href="/login" className="block">
+                    <Button 
+                      className="w-full bg-amora-blue hover:bg-amora-blue/90"
+                      onClick={() => setIsOpen(false)}
+                    >
+                      Começar Agora
+                    </Button>
+                  </Link>
                 </div>
               </div>
             </SheetContent>

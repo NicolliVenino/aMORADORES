@@ -1,4 +1,4 @@
-import type React from "react"
+/* import type React from "react"
 import type { Metadata } from "next"
 import { Montserrat, Open_Sans } from "next/font/google"
 import "./globals.css"
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     generator: 'v0.app'
 }
 
-export default function RootLayout({
+/* export default function RootLayout({
   children,
 }: {
   children: React.ReactNode
@@ -39,6 +39,51 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className={`${montserrat.variable} ${openSans.variable}`}>
       <body className="antialiased">{children}</body>
+    </html>
+  )
+} */
+/*
+import { AuthProvider } from '@/hooks/useAuth'
+import './globals.css'
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <html lang="pt-BR">
+      <body>
+        <AuthProvider>
+          {children}
+        </AuthProvider>
+      </body>
+    </html>
+  )
+} */
+
+// app/layout.tsx
+import './globals.css'
+import type { Metadata } from 'next'
+import { AuthProvider } from '@/hooks/useAuth'
+
+export const metadata: Metadata = {
+  title: 'Minha App',
+  description: 'Descrição da app',
+}
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <html lang="pt-BR">
+      <body>
+        <AuthProvider>
+          {children}
+        </AuthProvider>
+      </body>
     </html>
   )
 }
