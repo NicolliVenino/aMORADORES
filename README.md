@@ -1,55 +1,95 @@
 # aMORADORES
 
-### Descrição do projeto
+### Visão Geral do Projeto
+ &nbsp; &nbsp; &nbsp; &nbsp;aMORADORES é a plataforma digital desenvolvida para a aMORA, uma startup "Proptech" que busca tornar o processo de compra de imóveis mais acessível, transparente e seguro.
 
- &nbsp; &nbsp; &nbsp; &nbsp;aMORADORES é a plataforma digital desenvolvida para a aMORA, uma startup "Proptech" que busca tornar o processo de compra de imóveis mais acessível, transparente e seguro. Através de um baixo valor de entrada inicial, a possibilidade de testar o imóvel antes da compra e acompanhamento em todas as etapas, a aMORADORES conecta de forma eficiente corretores, moradores e a empresa.
+ &nbsp; &nbsp; &nbsp; &nbsp;A aplicação atua como um ecossistema inteligente, conectando de forma eficiente corretores, clientes e a empresa. Nossa solução busca não apenas simplificar a busca por imóveis, mas também resolver as dores mais profundas da jornada de compra, como a burocracia e a incerteza financeira, através de ferramentas inovadoras e do modelo de negócio único da aMORA.
 
- &nbsp; &nbsp; &nbsp; &nbsp;A plataforma oferece ferramentas para organização, salvamento e comparação entre diferentes imóveis, notificações personalizadas sobre moradias compatíveis com o interesse do usuário e a possibilidade de colaboração via link de compartilhamento. Além disso, atende às necessidades dos corretores, com uma interface simplificada para cadastro de imóveis, integração com o modelo de vendas aMORA, capacitação e gerenciamento de potenciais leads.
+--- 
 
- &nbsp; &nbsp; &nbsp; &nbsp;Com aMORADORES, a experiência de compra de imóveis torna-se mais intuitiva, colaborativa e eficiente. A plataforma não só facilita a jornada do morador, como também potencializa a atuação dos corretores, consolidando-se como uma solução completa e inovadora para o mercado imobiliário digital.
+### Funcionalidades da Plataforma
+- **Organização e Comparação**: Ferramentas para organizar e comparar imóveis de diferentes fontes, combatendo a sobrecarga de informações.
 
- &nbsp; &nbsp; &nbsp; &nbsp;**Passos futuros**: Como passos futuros pretendemos aprimorar algumas funcionalidades ainda em desenvolvimento, as quais estão em processo de teste para a integração final, como os alertas inteligentes, a possibilidade de colaboração com outros usuários e as funcionalidedas de compartilhamento.
+- **Colaboração Simplificada**: Contas e links colaborativos para que familiares e corretores possam trabalhar juntos na decisão.
+ 
+- **Interface para Corretores**: Ferramentas dedicadas para corretores cadastrarem imóveis e apresentarem o modelo de aluguel-compra da aMORA.
+
+- **Captação de Leads**: Fluxo de entrada sem login obrigatório e integração com WhatsApp.
 
 ---
 
-### Estrutura de pastas
+### Tecnologias Utilizadas
+- **Linguagem**: TypeScript
 
-``` bash
-aMORADORES
-hackathon-aMora
-.next
-  └── cache
-  └── server
-  └── static
-  └── types
-app
-  └── buscar
-  └── colaboracao
-  └── comparacao
-  └── corretor
-  └── simulador
-components
-  └── ui
-documents
-hooks
-lib
-public
-styles
+- **Frameworks**: Next.js, React
 
+- **Estilização**: Tailwind CSS
+
+- **Estado**: Hooks do React (ex: useState)
+
+---
+
+### Resolução dos Problemas do Desafio
+ &nbsp; &nbsp; &nbsp; &nbsp;A nossa solução foi desenhada para endereçar diretamente os cinco problemas listados no desafio, conforme as seguintes estratégias:
+
+1. **Desorganização da busca de imóveis:**
+
+- Implementamos uma interface que permite ao usuário buscar imóveis com auxílio de filtros predefinidos ou personalizados. Além disso, a plataforma viabiliza a comparação simples e intuitiva de diferentes imóveis para facilitar a escolha do cliente, como também apresenta um simulador de financiamento para esclarescer as vantagens de utilizar os serviços da aMORA em difetentes contextos. 
+
+2. **Falta de engajamento contínuo:**
+
+- A plataforma enviará notificações personalizadas (via e-mail ou WhatsApp) quando um imóvel similar aos procurados pelo usuário entrar no mercado ou tiver seu preço alterado, mantendo-o informado e engajado.
+
+3. **Dificuldade de colaboração:**
+
+- Criamos uma funcionalidade de busca colaborativa, onde o usuário pode convidar outras pessoas, por exemplo cônjuges, familiares e corretores, para visualizar e comentar sobre os imóveis, facilitando a decisão em grupo. Nesse ambiente, é possível visualizar as ações recentes dos colaboradores, como sugestões e comparações, para assim otimizar o acompanhamento da busca por todas as partes envolvidas.
+
+4. **Corretores sem ferramentas para apresentar a aMORA:**
+
+- Foi desenvolvida uma interface para corretores cadastrarem novos imóveis. A plataforma gerará páginas de apresentação personalizadas que já incluem o modelo de financiamento da aMORA.
+
+5. **Captação e ativação de leads sem custo de mídia:**
+
+- A experiência de usuário é iniciada sem a obrigatoriedade de login, reduzindo o atrito inicial. A integração com WhatsApp e a possibilidade de compartilhamento viral por links são a base para a captação orgânica de leads.
+
+---
+
+### Estrutura de Pastas
 ```
+aMORADORES
+hackathon-aMora/
+- .next/             # Arquivos de build do Next.js
+- app/               # Rotas e páginas da aplicação
+- buscar/        # Lógica para busca e listagem
+- colaboracao/   # Lógica de colaboração
+- comparacao/    # Lógica de comparação
+- corretor/      # Páginas e ferramentas do corretor
+- simulador/     # Calculadora e simulador financeiro
+- components/        # Componentes reutilizáveis do React
+- ui/            # Componentes de interface (botões, inputs, etc.)
+- documents/         # Documentação e relatórios do projeto
+- hooks/             # Custom Hooks do React
+- lib/               # Bibliotecas e utilitários
+- public/            # Assets estáticos (imagens, etc.)
+- styles/            # Arquivos CSS globais
+```
+
 ---
 
-### Como executar o projeto localmente?
+### Como Executar o Projeto Localmente
 
-#### Requisitos:
-- Download: [Node.js >= 18.x](https://nodejs.org/en/download)
-- Download: [npm >= 9.x](https://www.npmjs.com/package/npm/v/9.0.0)
-- Banco de dados (MySQL, PostgreSQL ou MongoDB, dependendo do projeto)
+**Requisitos:**
+- Download: Node.js >= 18.x
+
+- Download: npm >= 9.x
+
 - Editor de código (VSCode, por exemplo)
 
-#### Instalação:
+---
+
+**Instalação:**
 1. Clone o repositório:
-```bash
+```
 git clone https://github.com/usuario/Nome_do_Projeto.git
 ```
 2. Entre na pasta do projeto:
@@ -60,15 +100,18 @@ cd hackathon-aMora
 ```
 npm install --legacy-peer-deps
 ```
-4. Configure o banco de dados
-- Faça a conexão do banco de dados através do arquivo ```.env```
-
-5. Rodar no ambiente local executando o comando:
+4. Execute o projeto em ambiente local:
 ```
 npm run dev
 ```
-6. Acesse o endereço local:
+5. Acesse o endereço local no seu navegador:
 ```
-localhost:3000/
+http://localhost:3000/
 ```
 
+--- 
+
+### Autores
+- [Maria Arielly Lima de Oliveira](https://www.linkedin.com/in/maria-arielly/)
+- [Nicolli Venino Santana](https://www.linkedin.com/in/nicolli-venino-santana-b84341254/)
+- [Paulo Vitor Barros de Almeida](www.linkedin.com/in/paulo-vitor-barros-de-almeida)
