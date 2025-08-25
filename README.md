@@ -8,12 +8,11 @@
 
  &nbsp; &nbsp; &nbsp; &nbsp;Com aMORADORES, a experiência de compra de imóveis torna-se mais intuitiva, colaborativa e eficiente. A plataforma não só facilita a jornada do morador, como também potencializa a atuação dos corretores, consolidando-se como uma solução completa e inovadora para o mercado imobiliário digital.
 
-**Passos futuros**: Como passos futuros pretendemos aprimorar algumas funcionalidades ainda em desenvolvimento, as quais estão em processo de teste para a integração final, como os alertas inteligentes, a possibilidade de colaboração com outros usuários e as funcionalidedas de compartilhamento.
+ &nbsp; &nbsp; &nbsp; &nbsp;**Passos futuros**: Como passos futuros pretendemos aprimorar algumas funcionalidades ainda em desenvolvimento, as quais estão em processo de teste para a integração final, como os alertas inteligentes, a possibilidade de colaboração com outros usuários e as funcionalidedas de compartilhamento.
 
 ---
 
-## Estrutura de pastas
-Segue abaixo a estrutura de pastas do projeto:
+### Estrutura de pastas
 
 ``` bash
 aMORADORES
