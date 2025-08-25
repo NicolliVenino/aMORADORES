@@ -46,11 +46,11 @@
 
 4. **Corretores sem ferramentas para apresentar a aMORA:**
 
-- Foi desenvolvida uma interface para corretores cadastrarem novos imóveis. A plataforma gerará páginas de apresentação personalizadas que já incluem o modelo de financiamento da aMORA.
+- Foi desenvolvida uma interface para corretores, a qual contém um dashboard com dados sobre leads recentes como orçamento e contato, um formulário para cadastro de novos imóveis, uma aba com acesso rápido a materias de apresentação da aMORA, templates para contato de negócio via WhatsApp e treinamentos sobre o modelo aMORA, e, por fim, dados analíticos sobre a performance do corretor, por exemplo, leads gerados e vendas fechadas.
 
 5. **Captação e ativação de leads sem custo de mídia:**
 
-- A experiência de usuário é iniciada sem a obrigatoriedade de login, reduzindo o atrito inicial. A integração com WhatsApp e a possibilidade de compartilhamento viral por links são a base para a captação orgânica de leads.
+- A experiência de usuário é iniciada sem a obrigatoriedade de login, reduzindo o atrito inicial. Já a integração com WhatsApp e a possibilidade de compartilhamento viral por links são a base para a captação orgânica de leads.
 
 ---
 
