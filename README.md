@@ -5,6 +5,8 @@
 
  &nbsp; &nbsp; &nbsp; &nbsp;A aplicação atua como um ecossistema inteligente, conectando de forma eficiente corretores, clientes e a empresa. Nossa solução busca não apenas simplificar a busca por imóveis, mas também resolver as dores mais profundas da jornada de compra, como a burocracia e a incerteza financeira, através de ferramentas inovadoras e do modelo de negócio único da aMORA.
 
+ &nbsp; &nbsp; &nbsp; &nbsp;Detalhes sobre a análise de negócios realizada acerca da aMORA e seu mercado podem ser consultados por meio do seguinte link: https://github.com/NicolliVenino/hackathon-aMora/blob/main/documents/documentacao.md
+ 
 --- 
 
 ### Funcionalidades da Plataforma
