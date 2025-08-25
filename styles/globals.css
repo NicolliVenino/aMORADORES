@@ -1,77 +1,85 @@
-@import 'tailwindcss';
-@import 'tw-animate-css';
+@import "tailwindcss";
+@import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.646 0.222 41.116);
-  --chart-2: oklch(0.6 0.118 184.704);
-  --chart-3: oklch(0.398 0.07 227.392);
-  --chart-4: oklch(0.828 0.189 84.429);
-  --chart-5: oklch(0.769 0.188 70.08);
-  --radius: 0.625rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  /* Updated color palette to match Amora's design - navy blue primary, pink/purple accents */
+  --background: oklch(1 0 0); /* Pure white background */
+  --foreground: oklch(0.25 0.08 258); /* Navy blue for main text */
+  --card: oklch(0.98 0.02 258); /* Very light blue for cards */
+  --card-foreground: oklch(0.25 0.08 258); /* Navy blue text on cards */
+  --popover: oklch(1 0 0); /* White popover background */
+  --popover-foreground: oklch(0.35 0.05 258); /* Darker blue for popover text */
+  --primary: oklch(0.25 0.08 258); /* Navy blue primary (#1e3a8a equivalent) */
+  --primary-foreground: oklch(1 0 0); /* White text on primary */
+  --secondary: oklch(0.65 0.25 320); /* Pink/purple secondary (#d946ef equivalent) */
+  --secondary-foreground: oklch(1 0 0); /* White text on secondary */
+  --muted: oklch(0.98 0.02 258); /* Light blue muted background */
+  --muted-foreground: oklch(0.45 0.05 258); /* Medium blue muted text */
+  --accent: oklch(0.65 0.25 320); /* Pink/purple accent */
+  --accent-foreground: oklch(1 0 0); /* White text on accent */
+  --destructive: oklch(0.55 0.25 15); /* Red for destructive actions */
+  --destructive-foreground: oklch(1 0 0); /* White text on destructive */
+  --border: oklch(0.92 0.02 258); /* Light blue borders */
+  --input: oklch(0.98 0.02 258); /* Light blue input background */
+  --ring: oklch(0.25 0.08 258 / 0.5); /* Navy blue focus ring */
+  --chart-1: oklch(0.25 0.08 258); /* Navy blue for charts */
+  --chart-2: oklch(0.65 0.25 320); /* Pink/purple for charts */
+  --chart-3: oklch(0.6 0.22 280); /* Light purple for charts */
+  --chart-4: oklch(0.98 0.02 258); /* Light blue for charts */
+  --chart-5: oklch(0.92 0.02 258); /* Border color for charts */
+  --radius: 0.5rem; /* Rounded corners */
+  --sidebar: oklch(1 0 0); /* White sidebar */
+  --sidebar-foreground: oklch(0.25 0.08 258); /* Navy blue sidebar text */
+  --sidebar-primary: oklch(0.25 0.08 258); /* Navy blue sidebar primary */
+  --sidebar-primary-foreground: oklch(1 0 0); /* White sidebar primary text */
+  --sidebar-accent: oklch(0.65 0.25 320); /* Pink/purple sidebar accent */
+  --sidebar-accent-foreground: oklch(1 0 0); /* White sidebar accent text */
+  --sidebar-border: oklch(0.92 0.02 258); /* Light blue sidebar borders */
+  --sidebar-ring: oklch(0.25 0.08 258 / 0.5); /* Navy blue sidebar focus ring */
+
+  /* Added custom Amora brand colors for direct use */
+  --amora-blue: oklch(0.25 0.08 258); /* Navy blue #1e3a8a */
+  --amora-purple: oklch(0.65 0.25 320); /* Pink/purple #d946ef */
+  --amora-light-purple: oklch(0.6 0.22 280); /* Light purple #a855f7 */
+  --amora-light-bg: oklch(0.98 0.02 258); /* Light blue background #f0f4ff */
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.145 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.145 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.985 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.396 0.141 25.723);
-  --destructive-foreground: oklch(0.637 0.237 25.331);
-  --border: oklch(0.269 0 0);
-  --input: oklch(0.269 0 0);
-  --ring: oklch(0.439 0 0);
-  --chart-1: oklch(0.488 0.243 264.376);
-  --chart-2: oklch(0.696 0.17 162.48);
-  --chart-3: oklch(0.769 0.188 70.08);
-  --chart-4: oklch(0.627 0.265 303.9);
-  --chart-5: oklch(0.645 0.246 16.439);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(0.269 0 0);
-  --sidebar-ring: oklch(0.439 0 0);
+  /* Updated dark mode colors to maintain Amora branding */
+  --background: oklch(0.15 0.05 258); /* Dark navy background */
+  --foreground: oklch(0.98 0.02 258); /* Light blue text */
+  --card: oklch(0.18 0.05 258); /* Slightly lighter dark navy for cards */
+  --card-foreground: oklch(0.98 0.02 258); /* Light blue card text */
+  --popover: oklch(0.18 0.05 258); /* Dark navy popover */
+  --popover-foreground: oklch(0.98 0.02 258); /* Light blue popover text */
+  --primary: oklch(0.65 0.25 320); /* Pink/purple primary in dark mode */
+  --primary-foreground: oklch(1 0 0); /* White text on primary */
+  --secondary: oklch(0.25 0.08 258); /* Navy blue secondary in dark mode */
+  --secondary-foreground: oklch(1 0 0); /* White text on secondary */
+  --muted: oklch(0.22 0.05 258); /* Muted dark navy */
+  --muted-foreground: oklch(0.75 0.05 258); /* Light muted text */
+  --accent: oklch(0.65 0.25 320); /* Pink/purple accent */
+  --accent-foreground: oklch(1 0 0); /* White accent text */
+  --destructive: oklch(0.55 0.25 15); /* Red destructive */
+  --destructive-foreground: oklch(1 0 0); /* White destructive text */
+  --border: oklch(0.25 0.05 258); /* Dark navy borders */
+  --input: oklch(0.22 0.05 258); /* Dark navy input background */
+  --ring: oklch(0.65 0.25 320 / 0.5); /* Pink/purple focus ring */
+  --chart-1: oklch(0.65 0.25 320); /* Pink/purple for charts */
+  --chart-2: oklch(0.6 0.22 280); /* Light purple for charts */
+  --chart-3: oklch(0.25 0.08 258); /* Navy blue for charts */
+  --chart-4: oklch(0.22 0.05 258); /* Dark muted for charts */
+  --chart-5: oklch(0.25 0.05 258); /* Dark border for charts */
+  --sidebar: oklch(0.15 0.05 258); /* Dark navy sidebar */
+  --sidebar-foreground: oklch(0.98 0.02 258); /* Light blue sidebar text */
+  --sidebar-primary: oklch(0.65 0.25 320); /* Pink/purple sidebar primary */
+  --sidebar-primary-foreground: oklch(1 0 0); /* White sidebar primary text */
+  --sidebar-accent: oklch(0.6 0.22 280); /* Light purple sidebar accent */
+  --sidebar-accent-foreground: oklch(1 0 0); /* White sidebar accent text */
+  --sidebar-border: oklch(0.25 0.05 258); /* Dark navy sidebar borders */
+  --sidebar-ring: oklch(0.65 0.25 320 / 0.5); /* Pink/purple sidebar focus ring */
 }
 
 @theme inline {
@@ -111,6 +119,12 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+
+  /* Added custom Amora brand colors to theme */
+  --color-amora-blue: var(--amora-blue);
+  --color-amora-purple: var(--amora-purple);
+  --color-amora-light-purple: var(--amora-light-purple);
+  --color-amora-light-bg: var(--amora-light-bg);
 }
 
 @layer base {
@@ -119,5 +133,36 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+/* Added custom utility classes for Amora branding */
+@layer utilities {
+  .text-amora-blue {
+    color: var(--color-amora-blue);
+  }
+  .text-amora-purple {
+    color: var(--color-amora-purple);
+  }
+  .text-amora-light-purple {
+    color: var(--color-amora-light-purple);
+  }
+  .bg-amora-blue {
+    background-color: var(--color-amora-blue);
+  }
+  .bg-amora-purple {
+    background-color: var(--color-amora-purple);
+  }
+  .bg-amora-light-purple {
+    background-color: var(--color-amora-light-purple);
+  }
+  .bg-amora-light-bg {
+    background-color: var(--color-amora-light-bg);
+  }
+  .border-amora-blue {
+    border-color: var(--color-amora-blue);
+  }
+  .border-amora-purple {
+    border-color: var(--color-amora-purple);
   }
 }
