@@ -6,7 +6,7 @@
 
 ### 1.1. Introdução 
 
-&nbsp; &nbsp; &nbsp; &nbsp;A ferramenta configura-se como uma plataforma gratuíta que conecta corretores de imóveis e potenciais clientes, assim como facilita a organização e a praticidade no processo de busca e análise de imóveis. Paralelamente, a solução contempla página de cadastro de imóveis para os corretores e visa mitigar a problemática que tange à falta de ferramentas para a apresentação da aMORA.
+&nbsp; &nbsp; &nbsp; &nbsp;A ferramenta configura-se como uma plataforma gratuita que conecta corretores de imóveis e potenciais clientes, assim como facilita a organização e a praticidade no processo de busca e análise de imóveis. Paralelamente, a solução contempla página de cadastro de imóveis para os corretores e visa mitigar a problemática que tange à falta de ferramentas para a apresentação da aMORA.
 
 ### 2. Objetivos e Justificativa
 
