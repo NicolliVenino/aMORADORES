@@ -8,11 +8,25 @@
 
 &nbsp; &nbsp; &nbsp; &nbsp;A ferramenta configura-se como uma plataforma gratuíta que conecta corretores de imóveis e potenciais clientes, assim como facilita a organização e a praticidade no processo de busca e análise de imóveis. Paralelamente, a solução contempla página de cadastro de imóveis para os corretores e visa mitigar a problemática que tange à falta de ferramentas para a apresentação da aMORA.
 
-&nbsp; &nbsp; &nbsp; &nbsp;Diante disso, com o fito de concretizar a solução, foram desenvolvidas as seguintes funcionalidades:
-
-&nbsp; &nbsp; &nbsp; &nbsp;Dessa forma, o projeto reforça o compromisso de criar uma solução inovadora que seja tecnicamente eficaz.
-
 ### 1.2. Objetivos e Justificativa
+
+#### 2.1 Objetiivos
+
+&nbsp; &nbsp; &nbsp; &nbsp;Os objetivos da solução configuram-se como os seguintes:
+
+- Facilitar o processo de busca de imóveis, de modo a favorecer que o cliente encontre seu imóvel ideal na aMora;
+- Incentivar a compra do cliente;
+- Viabilizar o trabalho de análise e compra de imóveis em conjunto;
+- Permitir a apresentação da aMORA nos campos tangentes à busca de imóveis;
+- Captar clientes sem aumentar os custos da startup.
+
+#### 2.2 Proposta da Solução
+
+&nbsp; &nbsp; &nbsp; &nbsp;A proposta de solucação torna-se concreta por meio de uma aplicação WEB sem fins lucrativos - com o fito de ser acessível a potenciais clientes, na qual, por intermédio de suas funcionalidades, atende à todos os objetivos supracitados. 
+
+#### 2.3 Justificativa
+
+&nbsp; &nbsp; &nbsp; &nbsp;A proposta de solução justifica-se em razão da necessidade de alinhar o serviço fornecido pela aMORA conforme o cenário vigente. Nessa ótica, é válido destacar a nóticia públicada na Folha de São Paulo, a qual expoe que O número de domicílios unipessoais quase dobrou em 12 anos, passando de 7,5 milhões em 2012 para 14,4 milhões em 2024 — o que representa 1 em cada 5 lares no país. Sob essa análise, é notória a demanda de filtros no que tange a capacidade de residentes no imóvel nas plataformas de busca imobiliária, de modo a facilitar a procura por domicílios unipessoais e, assim, atender esse público emergente. Com isso em mente, a solução atentou-se para contemplar as filtragens demandadas, assim como demais funcionalidades que demonstraram-se fundamentais, como opções de salvar, organizar e comparar imóveis dentro da plataforma.
 
 ## 2. Contexto da Indústria
 
@@ -31,13 +45,7 @@
 
 </div>
 
-## 3. Planejamento da Solução
-
-### 3.1. Compreensão do Problema  
-
-### 3.2. Compreensão do Público-Alvo
-
-### 3.3. Personas  
+### 3. Personas  
 
 &nbsp; &nbsp; &nbsp; &nbsp;As personas são representações semifictícias criadas para ilustrar perfis de usuários com comportamentos, objetivos e desafios semelhantes aos do público real de uma solução. Nessa esfera, ao sintetizar características como motivações, frustrações e contexto, as personas ajudam a compreender melhor os diferentes pontos de vista envolvidos na aplicação de uma ferramenta ou serviço.
 
