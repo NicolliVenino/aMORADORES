@@ -52,7 +52,6 @@ styles
 1. Clone o repositório:
 ```bash
 git clone https://github.com/usuario/Nome_do_Projeto.git
-
 ```
 2. Entre na pasta do projeto:
 ```
@@ -60,31 +59,17 @@ cd hackathon-aMora
 ```
 3. Instale as dependências:
 ```
-npm install
 npm install --legacy-peer-deps
-
 ```
 4. Configure o banco de dados
 - Faça a conexão do banco de dados através do arquivo ```.env```
 
-5. Rodar no ambiente local:`
-Execute o comando:
-```npm run dev ```
-Ambiente de execução: local host 3000
+5. Rodar no ambiente local executando o comando:
+```
+npm run dev
+```
+6. Acesse o endereço local:
+```
+localhost:3000/
+```
 
-### Como testar as APIs?
-
-Utilize ferramentas como **Postman** ou **Insomnia**.
-
-Os endpoints disponíveis estão definidos na pasta `/routes` ou na documentação da API.
-
-### Exemplos de requisições:
-
-- **GET** `/api/tarefas` → Retorna todas as tarefas
-
-- **POST** `/api/tarefas` → Cria uma nova tarefa
-```json
-{
-  "titulo": "Nova tarefa",
-  "concluida": false
-}
