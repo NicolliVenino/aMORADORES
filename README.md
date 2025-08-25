@@ -64,35 +64,44 @@
 ```
 aMORADORES/
 │
-├── app/                    # Núcleo da aplicação: backend, frontend, configurações e scripts                    
+├── app/                       # Núcleo da aplicação: backend, frontend, configurações e scripts                    
 │   │
 │   ├── auth/callback/              
 │   │   ├── page.tsx             
 │   │
 │   ├── buscar/         
 │   │   ├── loading.tsx           
-│   │   ├── page.tsx             
-│   ├── colaboracao/         
-│   │   ├── page.tsx 
-│   ├── comparacao/         
-│   │   ├── page.tsx 
-│   ├── corretor/         
 │   │   ├── page.tsx
+│   │
+│   ├── colaboracao/         # Lógica de colaboração
+│   │   ├── page.tsx
+│   │
+│   ├── comparacao/          # Lógica de comparação
+│   │   ├── page.tsx
+│   │
+│   ├── corretor/            # Páginas e ferramentas do corretor
+│   │   ├── page.tsx
+│   │
 │   ├── dashboard/         
 │   │   ├── page.tsx
+│   │
 │   ├── login/         
 │   │   ├── page.tsx
+│   │
 │   ├── simulador/         
 │   │   ├── page.tsx
+│   │
 │   ├── global.css         
 │   ├── layout.tsx        
 │   ├── loading.tsx         
-│   ├── page.tsx         
-├── assets/
+│   ├── page.tsx
+│   │
+├── assets/                       # Imagens utilizadas na documentação      
 │   ├── CPV - aMORADORES.png        
 │   ├── analise-swot.png         
 │   ├── persona1.png       
-│   ├── persona2.png       
+│   ├── persona2.png
+│   │
 ├── components/
 │   │
 │   ├── ui/              
@@ -157,16 +166,20 @@ aMORADORES/
 │   ├── property-search.tsx
 │   ├── quick-actions.tsx
 │   ├── theme-provider.tsx
+│   │
 ├── documents/
-├── documentacao.md
+├── documentacao.md              # Documentação e análise de negócios do projeto
+│   │
 ├── hooks/
 ├── use-mobile.ts
 ├── use-toast.ts
 ├── useAuth.tsx
+│   │
 ├── lib/
 ├── supabase.ts
 ├── utils.ts
-├── public/
+│   │
+├── public/                       # Assets estáticos
 ├── amoraLogo.jpg
 ├── diverse-woman-avatar.png
 ├── happy-couple-in-modern-home-interior.png
@@ -179,16 +192,18 @@ aMORADORES/
 ├── placeholder-user.jpg
 ├── placeholder.jpg
 ├── placeholder.svg
-├── styles/
+│   │
+├── styles/                       # Arquivo CSS globais
 ├── globals.css
-├── .gitignore
-├── README.md
+│   │
+├── .gitignore                    # Arquivos e pastas que devem ser ignorados pelo Git
+├── README.md                     # Explicação geral do projeto: descrição, como rodar, estrutura, etc
 ├── components.json
-├── middleware.ts
-├── next.config.mjs
-├── package-lock.json
-├── package.json
-├── pnpm-lock.yaml
+├── middleware.ts 
+├── next.config.mjs 
+├── package-lock.json             # Controle de versões exatas das dependências
+├── package.json                  # Lista de dependências, scripts e informações do projeto Node.js
+├── pnpm-lock.yaml 
 ├── postcss.config.mjs
 ├── tsconfig.json
 
