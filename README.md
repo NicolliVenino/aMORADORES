@@ -2,6 +2,8 @@
 
 [Acesse aqui o projeto hospedado](<https://a-moradores.vercel.app/>)
 
+[Acesse aqui o vídeo de navegação da plataforma](https://drive.google.com/file/d/1XQrXy4m1zOyVVF0DB-POgX6Y057nu7ri/view?usp=sharing)
+
 ### Visão Geral do Projeto
  &nbsp; &nbsp; &nbsp; &nbsp;aMORADORES é a plataforma digital desenvolvida para a aMORA, uma startup "Proptech" que busca tornar o processo de compra de imóveis mais acessível, transparente e seguro.
 
