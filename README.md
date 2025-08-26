@@ -67,9 +67,9 @@ aMORADORES/
 ├── app/                       # Núcleo da aplicação: backend, frontend, configurações e scripts                    
 │   │
 │   ├── auth/callback/              
-│   │   ├── page.tsx             
+│   │   ├── page.tsx           # Funções que definem o callback do login
 │   │
-│   ├── buscar/         
+│   ├── buscar/                # Função de BuscarPage
 │   │   ├── loading.tsx           
 │   │   ├── page.tsx
 │   │
@@ -82,17 +82,17 @@ aMORADORES/
 │   ├── corretor/            # Páginas e ferramentas do corretor
 │   │   ├── page.tsx
 │   │
-│   ├── dashboard/         
+│   ├── dashboard/           # Dashboard principal
 │   │   ├── page.tsx
 │   │
-│   ├── login/         
+│   ├── login/               # Lógica do login
 │   │   ├── page.tsx
 │   │
-│   ├── simulador/         
+│   ├── simulador/           # Funcionalidade de simular valores
 │   │   ├── page.tsx
 │   │
-│   ├── global.css         
-│   ├── layout.tsx        
+│   ├── global.css           # Estilização global do css
+│   ├── layout.tsx           
 │   ├── loading.tsx         
 │   ├── page.tsx
 │   │
@@ -102,7 +102,7 @@ aMORADORES/
 │   ├── persona1.png       
 │   ├── persona2.png
 │   │
-├── components/
+├── components/                   # Componentes da aplicação
 │   │
 │   ├── ui/              
 │   │   ├── accordion.tsx            
